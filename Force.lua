@@ -214,12 +214,6 @@ DistSection:addSlider("Distance", 1000, 0, 10000, function(Value)
 	_G.Distance = Value
 end)
 
---// Farms
-
-FarmSection:addToggle("Flower Farm [PATCHED]", false, function(state)
-	_G.Activated = state
-end)
-
 --// Teleports
 
 Tatooine:addButton("Solare", function()
