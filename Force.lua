@@ -202,14 +202,6 @@ TrinketSection:addToggle("Legendary", false, function(state)
 	GetListByRarity("Legendary")
 end)
 
-MiscSection:addToggle("Ingredients", false, function(state)
-	_G.Toggle["Ingredients"] = state
-end)
-
-MiscSection:addToggle("Flowers", false, function(state)
-	_G.Toggle["Flowers"] = state
-end)
-
 DistSection:addSlider("Distance", 1000, 0, 10000, function(Value)
 	_G.Distance = Value
 end)
