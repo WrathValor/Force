@@ -261,7 +261,7 @@ end)
 --// Settings
 
 Settings:addKeybind("Hide UI", Enum.KeyCode.RightAlt, function()
-	venyx:Toggle()
+	venyx:toggle()
 end)
 
 --| Load
